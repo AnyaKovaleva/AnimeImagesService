@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.image-container{
+  justify-content: start;
+  grid-template-columns: 162px max-content;
+  column-width: 200px;
+  padding: 10px;
+}
+.pr-image-container{
+  display: grid;
+  justify-content: start;
+}
+.image {
+  object-fit: contain;
+  height: 400px;
+  width: 400px;
+  border-radius: 6px;
+  border: 3px solid #c0c0c0;
+  background-color: #cccccc;
+}
+
+.result-image{
+  object-fit: contain;
+  height: 400px;
+  width: 400px;
+  margin-left: 40px;
+  border-radius: 6px;
+  border: 3px solid #0f9662;
+  background-color: #14e17b;
+}
+.select-image{
+  border: 3px solid #00a6a3;
+  border-radius: 6px;
+  background-color: #00e9e2;
+  margin-bottom: 10px;
+  margin-top: 25px;
+  padding: 10px;
+  font-size: 18px;
+  width: 97%;
+  justify-self: center;
+  text-align: center;
+  font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+}
+.select-image:hover{
+  border: 3px solid #017271;
+  background-color: #00e9e4;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+}
